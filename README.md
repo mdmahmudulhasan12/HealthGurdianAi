@@ -11,8 +11,9 @@ By combining these AI-driven systems, HealthGuardian AI aims to provide **reliab
 ## Technology Stack
 - **Programming Languages**: Python  
 - **Frameworks**: TensorFlow, Keras  
-- **Libraries**: OpenCV, NumPy, Matplotlib, Scikit-learn  
-- **Deployment**: Cloud or on-device inference  
+- **Libraries**: OpenCV, NumPy, Matplotlib, Scikit-learn, and more  
+- **Deployment**: Flask on local device  
+- **Models**: CNN, VGG16 for Brain Tumor Detection
 
 # HealthGuardian AI - Project Structure
 
