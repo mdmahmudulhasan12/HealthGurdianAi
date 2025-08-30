@@ -8,42 +8,22 @@ HealthGuardian AI is an advanced medical diagnostic system leveraging **Artifici
 
 By combining these AI-driven systems, HealthGuardian AI aims to provide **reliable, fast, and accessible diagnostic support**, enhancing healthcare services globally.
 
-## Motivation
-Early diagnosis of brain tumors and skin cancer significantly improves treatment outcomes.  
+## Technology Stack
+- **Programming Languages**: Python  
+- **Frameworks**: TensorFlow, Keras  
+- **Libraries**: OpenCV, NumPy, Matplotlib, Scikit-learn  
+- **Deployment**: Cloud or on-device inference  
 
-- **Brain Tumors**: Often fatal if not detected early; MRI analysis is time-consuming and requires skilled radiologists.  
-- **Skin Cancer**: Early-stage symptoms are subtle and often misdiagnosed, especially in remote areas.  
+# HealthGuardian AI - Project Structure
 
-HealthGuardian AI seeks to bridge the gap between **timely diagnosis** and **healthcare accessibility**, using AI to provide critical second opinions and support in underserved regions.
+- **Main_project_interface.py** – Main Flask application connecting the trained models with the web interface.  
+- **brain_tumor_model.h5** – Trained CNN model for brain tumor detection.  
+- **skin_cancer_cnn.h5** – Trained CNN model for skin cancer detection.  
+- **index.html** – Main webpage where users upload images and see results. Contains HTML and CSS code.  
+- **skin-cancer-detection-with-cnn-deep-learning.ipynb** – Jupyter Notebook containing the full training process, data preprocessing, CNN model creation, and evaluation for skin cancer detection.  
+- **brain_tumour_detection_using_deep_learning.ipynb** – Jupyter Notebook containing the complete workflow for brain tumor detection, including data preparation, CNN model training, and performance evaluation.  
+- **README.md** – Documentation file explaining the project.
 
-## Problem Statement
-Medical professionals face increasing workloads and the challenge of analyzing complex medical images quickly. Many rural areas lack access to expert radiologists or dermatologists, delaying diagnosis and treatment.  
-
-HealthGuardian AI addresses the following issues:
-
-- **Brain Tumor Detection**: Manual MRI scan analysis is time-consuming and prone to error.  
-- **Skin Cancer Detection**: Early-stage symptoms can be subtle, leading to late diagnoses.  
-
-By automating detection with deep learning, the system improves accuracy and delivers **rapid, reliable results**.
-
-### Complex Engineering Problem
-| Attribute | Explanation |
-|-----------|-------------|
-| **Depth of knowledge required** | Expertise in computer vision, CNNs, deep learning frameworks (TensorFlow/Keras), and medical image preprocessing. |
-| **Range of conflicting requirements** | Balancing high prediction accuracy, fast processing, patient data privacy, and model interpretability. |
-| **Depth of analysis required** | Feature extraction, CNN fine-tuning, and evaluation using medical-grade datasets. |
-| **Familiarity of issues** | Handling imbalanced medical datasets and implementing advanced augmentation techniques. |
-| **Extent of applicable codes** | Compliance with ethical AI guidelines, HIPAA-like regulations, and international health standards. |
-| **Stakeholder involvement** | Hospitals, labs, doctors, patients, and regulators with differing priorities and constraints. |
-| **Interdependence** | Model performance relies on quality preprocessing, accurate CNN training, and reliable deployment. |
-
-## Design Goals / Objectives
-- Develop a CNN-based **Brain Tumor Detection** model using MRI datasets.  
-- Build a CNN-based **Skin Cancer Detection** system with dermoscopic images.  
-- Achieve high **accuracy, precision, and recall** for real-world medical applications.  
-- Optimize **preprocessing and augmentation** for robust predictions.  
-- Integrate both modules into a **single, user-friendly interface**.  
-- Enable **fast on-device or cloud-based inference** for real-time healthcare usage.
 
 ## Applications
 - **Preliminary Diagnostic Tool**: Provides fast analysis of MRI and skin images to assist doctors.  
@@ -52,11 +32,6 @@ By automating detection with deep learning, the system improves accuracy and del
 - **Telemedicine Integration**: Can be incorporated into telehealth platforms for remote patient screening.  
 - **Medical Education and Training**: Serves as a learning tool for students and trainees.
 
-## Technology Stack
-- **Programming Languages**: Python  
-- **Frameworks**: TensorFlow, Keras  
-- **Libraries**: OpenCV, NumPy, Matplotlib, Scikit-learn  
-- **Deployment**: Cloud or on-device inference  
 
 ## Installation
 ```bash
